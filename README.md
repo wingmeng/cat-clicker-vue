@@ -4,7 +4,7 @@
 
 ----
 
-[演示地址](https://wingmeng.github.io/cat-clicker-vue/dist/index.html)
+[演示地址](https://wingmeng.github.io/cat-clicker-vue/dist/)
 
 ## 一、MVVM 的本质及原理
 
