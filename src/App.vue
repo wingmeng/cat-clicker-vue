@@ -68,12 +68,12 @@ export default {
   },
   computed: {
     // 获取当前的猫
-    getCurCat: function() {
+    getCurCat() {
       return this.cats[this.catIndex];
     }
   },
   methods: {
-    setCatIndex: function(idx) {
+    setCatIndex(idx) {
       // 直接改变数据，视图会随之更新
       this.catIndex = idx;
     },

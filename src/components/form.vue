@@ -46,19 +46,19 @@ export default {
 		}
 	},
 	computed: {
-		values: function() {
+		values() {
 			return Object.assign({}, this.fields);  // 浅拷贝
 		}
 	},
 	methods: {
-		toggleForm: function() {
+		toggleForm() {
 			this.isFormShow = !this.isFormShow;
 		},
-		updateValue: function(e) {
+		updateValue(e) {
 			let { name, value } = e.target;
 			this.values[name] = name === 'clicks' ? parseInt(value, 10) : value;
 		},
-		onCancel: function() {
+		onCancel() {
 			this.isFormShow = false;
 		},
 		onSave() {

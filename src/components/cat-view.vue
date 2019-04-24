@@ -34,7 +34,7 @@ export default {
 		index: Number
 	},
 	methods: {
-		onCatClick: function() {
+		onCatClick() {
 			this.$emit('cat-click');
 		}
 	}
