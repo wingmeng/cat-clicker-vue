@@ -35,6 +35,7 @@ export default {
 	},
 	methods: {
 		onCatClick() {
+      // 触发父级事件
 			this.$emit('cat-click');
 		}
 	}
